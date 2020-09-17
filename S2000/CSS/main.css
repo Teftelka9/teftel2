@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 19844;
+	src: url(../fonts/19844.ttf);
+}
+
+html, body, main {
+	height: 100%;
+	font-family: 19844;
+}
+
+.first {
+	height: 100%;
+	background-image: url(../img/g2000.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-bottom: 4px solid orange;
+}
+
+.first p{
+	color: white;
+}
+
+.tourism{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+
+.text-container{
+	width: 40%;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+
+.first-line{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;
+	line-height: 1;
+}
+
+.second-line{
+	text-transform: uppercase;
+	font-size: 64px;
+	line-height: 1;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.third-line{
+	font-size: 20px;
+}
+
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 125px;
+}
+
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+
+.img-container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 95px;
+	
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.img1{
+	width: 70%;
+
+}
+
+.wrapper{
+	margin-left: 50px;
+}
+
+.img2{
+	width: 200%;
+	margin-bottom: 20px;
+}
+
+.img3{
+	width: 200%;
+}
+
+.gallery-header{
+	font-size: 70px;
+}
+
+.gallery-p{
+	font-size: 25px;
+    opacity: 0.8;
+}
+
+.last-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 275px;
+	padding: 0 25%;
+	background-image: url(../IMG/S20.jpg);
+	background-position: center;
+	background-size: cover;
+    border-top: 4px solid orange;
+}
+
+.last-header{
+	color: yellow;
+	font-size: 25px;
+	padding: 10px 20px
+	border: 1px solid white;
+	margin-bottom: 40px;
+	border: 1px solid white;
+}
+
+.last-text{
+	color: orange;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 2px;
+}
